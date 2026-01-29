@@ -4,7 +4,7 @@
   "window_hiding_behaviour": "Cloak",
   "cross_monitor_move_behaviour": "Insert",
   "transparency": true,
-  "transparency_alpha": 252,
+  "transparency_alpha": 200,
   "mouse_follows_focus": true,
   "default_workspace_padding": -1,
   "default_container_padding": -1,
