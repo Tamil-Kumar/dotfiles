@@ -1,0 +1,8 @@
+[[language]]
+name = "python"
+file-types = ["py"]
+indent = { tab-width = 1, unit = "  " }
+language-servers = ["pylsp"]
+
+[language-server.pylsp]
+command = "pylsp"

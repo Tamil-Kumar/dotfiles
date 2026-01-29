@@ -1,0 +1,23 @@
+theme = "best_theme"
+
+[editor.cursor-shape]
+insert = "bar"
+
+[editor]
+line-number = "absolute"
+cursorline = true
+bufferline = "multiple"
+color-modes = true
+
+[keys.normal." "]
+y = ":sh wt -w 0 sp yazi"
+
+[keys.normal]
+"g" = { "e" = ["goto_file_end", "goto_line_end"] }
+
+[editor.indent-guides]
+render = true
+character = "▏"
+
+[editor.statusline]
+center = ["position-percentage"]

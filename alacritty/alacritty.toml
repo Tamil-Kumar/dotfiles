@@ -1,0 +1,30 @@
+general.import = [ "~/.config/alacritty/color.toml" ]
+
+[env]
+TERM = "xterm-256color"
+
+[font]
+normal = { family = "0xProto Nerd Font", style = "Regular" }
+bold = { family = "0xProto Nerd Font", style = "Bold" }
+italic = { family = "0xProto Nerd Font", style = "Italic" }
+size = 11
+
+[window]
+padding.x = 14
+padding.y = 14
+decorations = "None"
+opacity = 0.9
+
+[keyboard]
+bindings = [
+{ key = "Insert", mods = "Shift", action = "Paste" },
+{ key = "Insert", mods = "Control", action = "Copy" }
+]
+
+[cursor]
+style = {shape = "Beam", blinking = "Never"}
+unfocused_hollow = false
+
+[terminal.shell]
+program = "nu"
+args = []
