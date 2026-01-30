@@ -14,7 +14,7 @@
   "animation": {
     "enabled": true,
     "duration": 100,
-    "fps": 60,
+    "fps": 100,
     "style": {
         "movement":"EaseInOutQuad",
         "transparency": "Linear"
