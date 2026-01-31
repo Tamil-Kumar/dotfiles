@@ -34,7 +34,6 @@ bars:
       left: [
           "home", 
           "wallpapers",
-          "cava",
       ]
       center: [
           "komorebi_workspaces",
